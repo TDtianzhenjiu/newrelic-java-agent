@@ -33,18 +33,18 @@ jobs:
       matrix:
         # functional_path: [basic_features, datastore]
         func_tests:
-          - hsm_atts.py
-          - hsm_custom_events.py
-          - hsm_custom_params.py
-          - hsm_msg_params.py
+          # - hsm_atts.py
+          # - hsm_custom_events.py
+          # - hsm_custom_params.py
+          # - hsm_msg_params.py
           - hsm_record_sql.py
-          - hsm_strip_exceptions.py
-          - lasp_attributes.py
-          - lasp_custom_events.py
-          - lasp_custom_params.py
-          - lasp_datastore.py
-          - lasp_msg_params.py
-          - lasp_strip_exceptions.py
+          # - hsm_strip_exceptions.py
+          # - lasp_attributes.py
+          # - lasp_custom_events.py
+          # - lasp_custom_params.py
+          # - lasp_datastore.py
+          # - lasp_msg_params.py
+          # - lasp_strip_exceptions.py
 
     steps:
       - uses: actions/checkout@v2
