@@ -8,7 +8,7 @@ on:
     branches: [ main ] ## branches TBD
     types: [opened, synchronize, reopened] ## Types TBD
   push:
-    branches: [ main ]
+    branches: [ tcrone/enable-flaky-inf-tracing-ait ]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
     inputs:
@@ -47,8 +47,7 @@ jobs:
           - trans_traces.py
           - uri_names.py
           - logging_test.py
-          # Flaky
-#          - inf_tracing_test.py
+          - inf_tracing_test.py
     steps:
       - uses: actions/checkout@v2
 
