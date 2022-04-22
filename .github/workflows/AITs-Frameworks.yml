@@ -38,13 +38,13 @@ jobs:
 ##          - ejb/ejb.py
 #          - jaxrs/jaxrs.py
 #          - jms/jms.py
-          - netty/netty.py
+##          - netty/netty.py
 ##          - play/play2.py
 #          - quartz/quartz.py
 ##          - snap/snap.py
 #          - spring/spring_4_3.py
 #          - spring/spring_5_0.py
-##          - spring/spring_webflux.py
+          - spring/spring_webflux.py
 #          - thrift/thrift.py
 
     steps:
