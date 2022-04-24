@@ -66,6 +66,7 @@ public class CQLParser {
     }
 
     public OperationAndTableName getOperationAndTableName(String rawQuery) {
+        System.out.println("rawQuery is ->"+rawQuery);
         rawQuery = rawQuery.replaceAll(COMMENT_PATTERN, "").trim();
 
         String operation = null;
